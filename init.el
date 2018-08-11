@@ -439,9 +439,9 @@
   :ensure t
   :config
   (require 'org-gcal)
-  (setq org-gcal-client-id "966528991505-p4h80784bvu47rbibh60858npdfuvstt.apps.googleusercontent.com"
-	org-gcal-client-secret "bhQzAYQduB30-pHNE3FhTgsr"
-	org-gcal-file-alist '(("bovo.ignazio.dev@gmail.com" . "~/org/schedule.org")
+  (setq org-gcal-client-id ""
+	org-gcal-client-secret ""
+	org-gcal-file-alist '(("" . "")
                               ))
   (add-hook 'org-agenda-mode-hook (lambda () (org-gcal-sync) ))
   (add-hook 'org-capture-after-finalize-hook (lambda () (org-gcal-sync) ))
