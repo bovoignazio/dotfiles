@@ -1,2 +1,2 @@
-# dotfiles
-my personal configuration files
+# dotfiles 
+verious settings for unix programs
